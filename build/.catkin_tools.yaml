@@ -1,0 +1,6 @@
+devel_space: /home/avinaash/SyncDroids/devel
+install: false
+install_space: /home/avinaash/SyncDroids/install
+profile: default
+source_space: /home/avinaash/SyncDroids/src
+workspace: /home/avinaash/SyncDroids
