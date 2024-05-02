@@ -1,0 +1,6 @@
+source;share/droid_navigation/hook/pythonpath.ps1
+source;share/droid_navigation/hook/pythonpath.dsv
+source;share/droid_navigation/hook/pythonpath.sh
+source;share/droid_navigation/hook/ament_prefix_path.ps1
+source;share/droid_navigation/hook/ament_prefix_path.dsv
+source;share/droid_navigation/hook/ament_prefix_path.sh
