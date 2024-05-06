@@ -1,0 +1,25 @@
+[0.492s] Invoking command in '/home/avinaash/SyncDroids/src/droid_navigation': PYTHONPATH=/home/avinaash/SyncDroids/build/droid_navigation/prefix_override:/home/avinaash/SyncDroids/install/droid_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/droid_navigation build --build-base /home/avinaash/SyncDroids/build/droid_navigation/build install --record /home/avinaash/SyncDroids/build/droid_navigation/install.log --single-version-externally-managed install_data
+[0.642s] running egg_info
+[0.642s] writing ../../build/droid_navigation/droid_navigation.egg-info/PKG-INFO
+[0.642s] writing dependency_links to ../../build/droid_navigation/droid_navigation.egg-info/dependency_links.txt
+[0.642s] writing entry points to ../../build/droid_navigation/droid_navigation.egg-info/entry_points.txt
+[0.643s] writing requirements to ../../build/droid_navigation/droid_navigation.egg-info/requires.txt
+[0.643s] writing top-level names to ../../build/droid_navigation/droid_navigation.egg-info/top_level.txt
+[0.662s] reading manifest file '../../build/droid_navigation/droid_navigation.egg-info/SOURCES.txt'
+[0.663s] writing manifest file '../../build/droid_navigation/droid_navigation.egg-info/SOURCES.txt'
+[0.663s] running build
+[0.663s] running build_py
+[0.663s] copying droid_navigation/droid_teleop_controller_01.py -> /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation
+[0.663s] running install
+[0.664s] running install_lib
+[0.664s] copying /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation/droid_teleop_controller_01.py -> /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.8/site-packages/droid_navigation
+[0.665s] byte-compiling /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.8/site-packages/droid_navigation/droid_teleop_controller_01.py to droid_teleop_controller_01.cpython-38.pyc
+[0.666s] running install_data
+[0.666s] running install_egg_info
+[0.667s] removing '/home/avinaash/SyncDroids/install/droid_navigation/lib/python3.8/site-packages/droid_navigation-0.0.0-py3.8.egg-info' (and everything under it)
+[0.667s] Copying ../../build/droid_navigation/droid_navigation.egg-info to /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.8/site-packages/droid_navigation-0.0.0-py3.8.egg-info
+[0.667s] running install_scripts
+[0.678s] Installing Teleop_Controller script to /home/avinaash/SyncDroids/install/droid_navigation/lib/droid_navigation
+[0.678s] Installing Teleop_Keyboard script to /home/avinaash/SyncDroids/install/droid_navigation/lib/droid_navigation
+[0.678s] writing list of installed files to '/home/avinaash/SyncDroids/build/droid_navigation/install.log'
+[0.692s] Invoked command in '/home/avinaash/SyncDroids/src/droid_navigation' returned '0': PYTHONPATH=/home/avinaash/SyncDroids/build/droid_navigation/prefix_override:/home/avinaash/SyncDroids/install/droid_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/droid_navigation build --build-base /home/avinaash/SyncDroids/build/droid_navigation/build install --record /home/avinaash/SyncDroids/build/droid_navigation/install.log --single-version-externally-managed install_data

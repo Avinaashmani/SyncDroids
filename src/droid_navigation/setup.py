@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'Teleop_Controller = droid_navigation.droid_teleop_controller_01:main',
+            'Teleop_Keyboard = droid_navigation.droid_teleop_keyboard_01:main',
         ],
     },
 )

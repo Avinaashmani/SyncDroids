@@ -26,6 +26,7 @@ class TeleopController(Node):
         self.reverse = 'b'
         self.turn_right = 'c'
         self.turn_left = 'd'
+        self.curve = 'e'
         
         
         try:
@@ -41,47 +42,24 @@ class TeleopController(Node):
 
     def compute(self):
 
-            # return_msg = self.arduino_01.readline().decode().strip()
-            # self.get_logger().info(return_msg)
-            
-        if self.linear_x > 0 and self.angular_z == 0:
-            data = f"<{self.forward}#{abs(self.linear_x)}#{abs(self.angular_z)}>"
-            self.arduino_01.write(data.encode('ascii'))
-                
+        if self.linear_x != None and self.angular_z != None:
+        
+            data_msg = f"<{int(self.linear_x)}#{int(self.angular_z)}>"
             return_msg = self.arduino_01.readline().decode().strip()
+            self.arduino_01.write(data_msg.encode('ascii'))
             self.get_logger().info(return_msg)
-            
-        elif self.linear_x < 0 and self.angular_z == 0:
-            data = f"<{self.forward}#{abs(self.linear_x)}#{abs(self.angular_z)}>"
-            self.arduino_01.write(data.encode('ascii'))
-                
-            return_msg = self.arduino_01.readline().decode().strip()
-            self.get_logger().info(return_msg)  
-            
-        elif self.angular_z > 0 and self.linear_x == 0:
-            data = f"<{self.forward}#{abs(self.linear_x)}#{abs(self.angular_z)}>"
-            self.arduino_01.write(data.encode('ascii'))
-                
-            return_msg = self.arduino_01.readline().decode().strip()
-            self.get_logger().info(return_msg)
+            self.get_logger().info(data_msg)
 
-        elif self.angular_z < 0 and self.linear_x == 0:
-            data = f"<{self.forward}#{abs(self.linear_x)}#{abs(self.angular_z)}>"
-            self.arduino_01.write(data.encode('ascii'))
-                
-            return_msg = self.arduino_01.readline().decode().strip()
-            self.get_logger().info(return_msg)
         else:
-            data = f"<{self.forward}#{abs(self.linear_x)}#{abs(self.angular_z)}>"
-            self.arduino_01.write(data.encode('ascii'))
-                
+            self.get_logger('Velocities == 0')
+            data_msg = f"<{int(0.0)}#{int(0.0)}>"
             return_msg = self.arduino_01.readline().decode().strip()
-            self.get_logger().info(return_msg)
+        
             
     def teleop_callback(self, msg):
 
-        self.angular_z = msg.angular.z
-        self.linear_x = msg.linear.x
+        self.angular_z = msg.angular.z 
+        self.linear_x = msg.linear.x 
         # print(f"linear velocity --> {self.linear_x}")
         # print(f"angular velocity --> {self.angular_z}")
 
