@@ -1,6 +1,6 @@
 FROM osrf/ros:humble-desktop-full
 
-RUN apt-get update && apt-get install nano -y && rm -rf /var/lib/lists/*
+RUN apt-get update && apt-get install nano -y 
 
 COPY setup.sh SyncDroid/setup/setup.sh
 COPY src /SyncDroid/src
