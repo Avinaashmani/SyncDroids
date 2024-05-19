@@ -1,8 +1,12 @@
 FROM osrf/ros:humble-desktop-full
 
-RUN apt-get update && apt-get nano -y && rm -rf /var/lib/lists/*
+RUN apt-get update && apt-get install nano -y && rm -rf /var/lib/lists/*
 
-COPY config/ /ros_config
+COPY setup.sh SyncDroid/setup/setup.sh
+COPY src /SyncDroid/src
+COPY config /SyncDroid/config
+COPY README.md /SyncDroid/README.msd
+
 
 RUN apt-get update \
     && apt-get install -y sudo \
@@ -11,6 +15,5 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* 
 
 
-COPY setup.sh /setup.sh
 ENTRYPOINT [ "/bin/bash", "/setup.bash" ]
 
