@@ -1,2 +1,2 @@
 # SyncDroids
-Research focuing on solving real world logistical problems using colaborative mobile robots.
+Research focused on solving real world logistical problems using colaborative mobile robots.
