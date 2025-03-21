@@ -1,0 +1,41 @@
+[0.467s] Invoking command in '/home/avinaash/SyncDroids/src/droid_navigation': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/avinaash/SyncDroids/build/droid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/droid_navigation build --build-base /home/avinaash/SyncDroids/build/droid_navigation/build install --record /home/avinaash/SyncDroids/build/droid_navigation/install.log --single-version-externally-managed install_data
+[0.641s] running egg_info
+[0.641s] creating ../../build/droid_navigation/droid_navigation.egg-info
+[0.641s] writing ../../build/droid_navigation/droid_navigation.egg-info/PKG-INFO
+[0.641s] writing dependency_links to ../../build/droid_navigation/droid_navigation.egg-info/dependency_links.txt
+[0.641s] writing entry points to ../../build/droid_navigation/droid_navigation.egg-info/entry_points.txt
+[0.642s] writing requirements to ../../build/droid_navigation/droid_navigation.egg-info/requires.txt
+[0.642s] writing top-level names to ../../build/droid_navigation/droid_navigation.egg-info/top_level.txt
+[0.642s] writing manifest file '../../build/droid_navigation/droid_navigation.egg-info/SOURCES.txt'
+[0.642s] reading manifest file '../../build/droid_navigation/droid_navigation.egg-info/SOURCES.txt'
+[0.643s] writing manifest file '../../build/droid_navigation/droid_navigation.egg-info/SOURCES.txt'
+[0.643s] running build
+[0.643s] running build_py
+[0.643s] creating /home/avinaash/SyncDroids/build/droid_navigation/build
+[0.643s] creating /home/avinaash/SyncDroids/build/droid_navigation/build/lib
+[0.643s] creating /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation
+[0.643s] copying droid_navigation/droid_teleop_keyboard_01.py -> /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation
+[0.643s] copying droid_navigation/droid_teleop_controller_01.py -> /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation
+[0.643s] copying droid_navigation/__init__.py -> /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation
+[0.644s] running install
+[0.644s] running install_lib
+[0.644s] creating /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages/droid_navigation
+[0.644s] copying /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation/droid_teleop_keyboard_01.py -> /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages/droid_navigation
+[0.644s] copying /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation/droid_teleop_controller_01.py -> /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages/droid_navigation
+[0.644s] copying /home/avinaash/SyncDroids/build/droid_navigation/build/lib/droid_navigation/__init__.py -> /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages/droid_navigation
+[0.645s] byte-compiling /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages/droid_navigation/droid_teleop_keyboard_01.py to droid_teleop_keyboard_01.cpython-310.pyc
+[0.645s] byte-compiling /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages/droid_navigation/droid_teleop_controller_01.py to droid_teleop_controller_01.cpython-310.pyc
+[0.646s] byte-compiling /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages/droid_navigation/__init__.py to __init__.cpython-310.pyc
+[0.646s] running install_data
+[0.646s] creating /home/avinaash/SyncDroids/install/droid_navigation/share/ament_index
+[0.646s] creating /home/avinaash/SyncDroids/install/droid_navigation/share/ament_index/resource_index
+[0.646s] creating /home/avinaash/SyncDroids/install/droid_navigation/share/ament_index/resource_index/packages
+[0.646s] copying resource/droid_navigation -> /home/avinaash/SyncDroids/install/droid_navigation/share/ament_index/resource_index/packages
+[0.646s] copying package.xml -> /home/avinaash/SyncDroids/install/droid_navigation/share/droid_navigation
+[0.646s] running install_egg_info
+[0.647s] Copying ../../build/droid_navigation/droid_navigation.egg-info to /home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages/droid_navigation-0.0.0-py3.10.egg-info
+[0.648s] running install_scripts
+[0.662s] Installing Teleop_Controller script to /home/avinaash/SyncDroids/install/droid_navigation/lib/droid_navigation
+[0.662s] Installing Teleop_Keyboard script to /home/avinaash/SyncDroids/install/droid_navigation/lib/droid_navigation
+[0.662s] writing list of installed files to '/home/avinaash/SyncDroids/build/droid_navigation/install.log'
+[0.679s] Invoked command in '/home/avinaash/SyncDroids/src/droid_navigation' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/avinaash/SyncDroids/build/droid_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avinaash/SyncDroids/install/droid_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/droid_navigation build --build-base /home/avinaash/SyncDroids/build/droid_navigation/build install --record /home/avinaash/SyncDroids/build/droid_navigation/install.log --single-version-externally-managed install_data
